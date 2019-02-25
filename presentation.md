@@ -183,3 +183,108 @@ Backend for storing and managing presentation files for Showrum.
 
 ## Q&A
 
+===
+
+---
+author: Josef Pospíšil
+date: 2019-02-26
+title: Serving
+---
+
+# Contemporary Backend Development
+
+---
+
+## Tuesday - Serving
+
+---
+
+## Languages
+
+* Imperative
+* Object Oriented
+* Functional
+* Hybrid
+
+---
+
+## Imperative
+
+* C
+* Lua
+* Out of favor these days
+
+---
+
+## Object Oriented
+
+* SmallTalk
+* Java, C#, C++, Swift
+* Ruby, Python, PHP
+* In full swing
+
+---
+
+## Functional
+
+* Lisp, Clojure, Racket
+* Haskel, OCaml, Elm
+* Elixir, Erlang
+
+---
+
+## One I forgot to mention
+
+* Golang 
+
+---
+
+## Hybrid
+
+* Almost All of the already mentioned
+* JavaScript
+
+---
+
+## Frameworks
+
+* Ruby - Ruby on Rails
+* Python - Django
+* Java, Scala - Play
+* PHP - Symphony
+* JavaScript - Feathers.js
+
+---
+
+## Express.js
+
+* Node.js based
+* Very simple a configurable
+* Used heavily
+* Hands on
+
+---
+
+## HTTP servers
+
+* Apache
+* Nginx
+
+---
+
+## Hosting service providers
+
+* Digital Ocean
+* Amazon AWS
+* Microsoft Azure
+* Hands on
+
+---
+
+## Bonus - Serverless
+
+* Front-end rich applications
+* Use services for all the tasks
+* Auth0 - https://auth0.com
+* AWS Dynamo, Lambda - http://aws.amazon.com
+* OpenSensors - https://www.opensensors.io
