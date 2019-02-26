@@ -288,3 +288,7 @@ title: Serving
 * Auth0 - https://auth0.com
 * AWS Dynamo, Lambda - http://aws.amazon.com
 * OpenSensors - https://www.opensensors.io
+
+---
+
+## Q&A
