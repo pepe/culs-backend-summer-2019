@@ -292,3 +292,110 @@ title: Serving
 ---
 
 ## Q&A
+
+===
+
+---
+author: Josef Pospíšil
+date: 2019-02-27
+title: Storage
+---
+
+# Contemporary Backend Development
+
+---
+
+## Wednesday - Storage
+
+---
+
+## Kinds 
+
+* File
+* Databases
+
+---
+
+## File formats
+
+* Binary
+* CSV
+* Markdown
+* XML
+* JSON
+
+---
+
+## Databases
+
+* Relational
+* Key/Value
+* Document
+* Graph
+
+---
+
+## Relational
+
+* MySQL
+* PostgreSQL
+* Oracle
+* MSSQL
+
+---
+
+## Key/Value
+
+* Redis
+* Riak
+* AWS DynamoDB
+* LevelDB
+
+---
+
+## Document
+
+* MongoDB
+* CouchDB
+* RethinkDB
+
+---
+
+## Graph
+
+* Neo4J
+* OrientDB
+* ArangoDB
+
+---
+
+## Search engines
+
+* Lucene
+* ElasticSearch
+* SolR
+
+---
+
+## MongoDB
+
+* JSON based
+* Dynamic Schema
+* Query Language
+
+---
+
+## Express.js statuses
+
+* Set on response
+* No need for any other information
+
+---
+
+## Mongoose.js
+
+* Access MongoDB from JS
+* Very Simple API
+* Models
+* Querying
+
