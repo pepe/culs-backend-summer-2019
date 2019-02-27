@@ -5,7 +5,6 @@
 3. Doszhan Kambarov
 4. Mikchail Rodovolskiy
 
-# Groups x
-Anup Khanal
-Kidus
-Aydin
+1. Anup Khanal
+2. Kidus
+3. Aydin
