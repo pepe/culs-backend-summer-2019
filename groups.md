@@ -5,8 +5,8 @@
 3. Doszhan Kambarov
 4. Mikchail Rodovolskiy
 
-Group 2
-5. Aishat Abdul
-6. Nguyen Viet Trung
-7. Simran Vrik
-8. NTAMBARA Samson
+
+1. Aishat Abdul
+2. Nguyen Viet Trung
+3. Simran Vrik
+4. NTAMBARA Samson
