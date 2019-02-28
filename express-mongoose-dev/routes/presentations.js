@@ -92,6 +92,6 @@ router.delete('/:id', function(req, res, next) {
         res.send();
       }
     }).catch(sendError);
-})
+});
 
 module.exports = router;

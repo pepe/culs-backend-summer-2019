@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <form>
+      <div>
+        <label>
+          Login
+          <input type="text" name="login">
+        </label>
+      </div>
+      <label>
+        Password
+        <input type="password" name="password">
+      </label>
+      </div>
+      <button>Submit</button>
+    </form>
+
+    <script>
+      var form = document.forms[0];
+
+      form.onsubmit = function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+
+        var formData = new FormData(e.target);
+
+        var object = {};
+        formData.forEach(function(value, key){
+          object[key] = value;
+        });
+        var json = JSON.stringify(object);
+
+        console.log(json);
+
+        fetch("/users/authenticate", {
+          method: "POST", // *GET, POST, PUT, DELETE, etc.
+          mode: "cors", // no-cors, cors, *same-origin
+          cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+          headers: {
+            "Content-Type": "application/json",
+          },
+          referrer: "no-referrer", // no-referrer, *client
+          body: json, // body data type must match "Content-Type" header
+        })
+          .then(response => {
+            console.log(response.status);
+            if(response.status == 200) document.location = "/"});
+      };
+      </script>
+  </body>
+</html>

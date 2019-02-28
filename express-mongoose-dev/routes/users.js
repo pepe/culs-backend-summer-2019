@@ -1,7 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
+const ObjectID = require('mongodb').ObjectID;
 const User = require('../models/user');
+const logger = require('morgan');
+
+const sendError = (err) => {
+  res.status(500);
+  res.send();
+};
 
 router.post('/', function(req, res, next) {
   const body = req.body;
@@ -51,6 +58,45 @@ router.post('/authenticate', function(req, res, next) {
         res.status(401);
         res.send();
       });
+});
+
+
+router.get('/', function(req, res, next) {
+  const token = req.headers.token;
+  const user_id = req.params.id;
+
+  User.findOne({_id: ObjectID(token)})
+    .then((user) => {
+      if (user != null) {
+        User.find({}, "name")
+          .then((users) => {
+            res.status(200);
+            res.send(users);
+          }).catch(sendError);
+      } else {
+        res.status(401);
+        res.send();
+      }
+    }).catch(sendError);
+});
+
+router.get('/:id', function(req, res, next) {
+  const token = req.headers.token;
+  const user_id = req.params.id;
+
+  User.findOne({_id: ObjectID(token)})
+    .then((user) => {
+      if (user != null) {
+        User.findOne({_id: ObjectID(token)}, "name")
+          .then((user) => {
+            res.status(200);
+            res.send(user);
+          }).catch(sendError);
+      } else {
+        res.status(401);
+        res.send();
+      }
+    }).catch(sendError);
 });
 
 module.exports = router;
