@@ -399,3 +399,26 @@ title: Storage
 * Models
 * Querying
 
+===
+
+---
+author: Josef Pospíšil
+date: 2019-03-01
+title: Final words
+---
+
+# Contemporary Backend Development
+
+---
+
+## Friday - Final words
+
+---
+
+## Link of the Day
+
+https://www.surveymonkey.com/r/RNHG7DX
+
+---
+
+# +420 774 278 707
